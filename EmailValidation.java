@@ -1,5 +1,3 @@
-package Valitation;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
