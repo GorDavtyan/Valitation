@@ -63,7 +63,6 @@ public class CreditCardsValitation {
                 }
             } catch (Exception ex) {
                 System.out.println("This cannot be a card number");
-                return;
             }
         }
 
@@ -77,7 +76,6 @@ public class CreditCardsValitation {
                 }
             } catch (Exception ex) {
                 System.out.println("There is no such bank card");
-                return;
             }
         }
     }
