@@ -25,7 +25,6 @@ public class PhoneNumberValidation {
             }
         } catch (Exception ex) {
             System.out.println("The first term must be plus");
-            return;
         }
     }
 
@@ -37,7 +36,6 @@ public class PhoneNumberValidation {
             }
         } catch (Exception ex) {
             System.out.println("The phone number code is not Armenian");
-            return;
         }
     }
 
@@ -48,7 +46,6 @@ public class PhoneNumberValidation {
             }
         } catch (Exception ex) {
             System.out.println("Incorrect number");
-            return;
         }
     }
 
@@ -66,7 +63,6 @@ public class PhoneNumberValidation {
             }
         } catch (Exception ex) {
             System.out.println("Not allowed symbol");
-            return;
         }
     }
 
@@ -77,7 +73,6 @@ public class PhoneNumberValidation {
             }
         } catch (Exception ex) {
             System.out.println("Invalid for number");
-            return;
         }
     }
 
@@ -109,7 +104,6 @@ public class PhoneNumberValidation {
             }
         } catch (Exception ex) {
             System.out.println("The telephone code is not a code for Armenia");
-            return;
         }
     }
 }
