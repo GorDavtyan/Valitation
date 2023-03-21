@@ -23,7 +23,6 @@ public class DateValitation {
             }
         } catch (Exception ex) {
             System.out.println("Does not match the date syntax");
-            return;
         }
         String day = matcher.group(1);
         String month = matcher.group(2);
@@ -33,7 +32,6 @@ public class DateValitation {
             }
         } catch (Exception ex) {
             System.out.println("This month does not have 31 days!");
-            return;
         }
         int year = Integer.parseInt(matcher.group(3));
         if (!LeepYear(year)) {
@@ -43,7 +41,6 @@ public class DateValitation {
                 }
             } catch (Exception ex) {
                 System.out.println("That year is not a leap year, February has 28 day");
-                return;
             }
         }
     }
