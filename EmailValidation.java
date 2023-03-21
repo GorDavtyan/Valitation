@@ -94,7 +94,6 @@ public class EmailValidation {
             }
         } catch (Exception ex) {
             System.out.println("Corbidden character");
-            return;
         }
     }
 
@@ -106,7 +105,6 @@ public class EmailValidation {
             }
         } catch (Exception ex) {
             System.out.println("Cirst character can't be dot '.'");
-            return;
         }
     }
 
@@ -124,7 +122,6 @@ public class EmailValidation {
             }
         } catch (Exception ex) {
             System.out.println("Can't write two dots together '..'");
-            return;
         }
     }
 
