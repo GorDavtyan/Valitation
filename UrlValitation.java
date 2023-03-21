@@ -17,7 +17,6 @@ public class UrlValitation {
             }
         } catch (Exception ex) {
             System.out.println("No such url can exist");
-            return;
         }
     }
 }
