@@ -27,7 +27,7 @@ public class DateValitation {
         String day = matcher.group(1);
         String month = matcher.group(2);
         try {
-            if (day.equals("31") && (month.equals("04") || month.equals("06") || month.equals("09") || month.equals(11))) {
+            if (day.equals("31") && (month.equals("04") || month.equals("06") || month.equals("09") || month.equals("11"))) {
                 throw new Exception();
             }
         } catch (Exception ex) {
